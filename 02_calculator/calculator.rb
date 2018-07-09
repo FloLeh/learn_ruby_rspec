@@ -19,5 +19,5 @@ def power(x,pow)
 end
 
 def factorial(x)
-  (1..x).inject(:*) || 1
-end
+  (1..x).inject(:*) || 1  #On multiplie les nombres de 1 à x pour créer le factoriel de x
+end                       #Si x est plus petit que 1, on renvoie 1

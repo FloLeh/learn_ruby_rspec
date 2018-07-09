@@ -3,5 +3,5 @@ def ftoc(temperature)
 end
 
 def ctof(temperature)
-  temperature*1.8 + 32
+  temperature*1.8 + 32  #9/5=1.8
 end
