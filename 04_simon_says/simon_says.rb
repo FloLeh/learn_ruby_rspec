@@ -19,9 +19,10 @@ def first_word(string)
 end
 
 def titleize(string)
-  if string.include?(' ')
-    string.split.map(&:capitalize).join(' ')
-  else
-    string[0].upcase+string[1,string.length]
+  small_words = ["on","the","and","of"]
+  capitalized_words = string.split.map do |word|
+    small_words.include?(word) ? word : word.capitalize
   end
+  capitalized_words.first.capitalize!
+  capitalized_words.join(' ')
 end
