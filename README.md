@@ -1,3 +1,9 @@
+Par Bertyn BOULIKOU et Florian LEHUEDE
+
+
+
+
+
 Test First Ruby -- RSpec 3 Edition
 ==========
 
